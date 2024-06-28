@@ -1,31 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CSPractice1
 {
+    class FirstClass
+    {
+
+    }
+
     internal class Program
     {
+        class ThirdClass
+        {
+
+        }
+
         static void Main(string[] args)
         {
             // #1 12-1. 기본용어
-            // int base = 0;
+            //int base = 0;
             var abc = 3;
-            // int var = 3;
+            //var var = 3;
 
             // 한줄주석
-            /*여러줄 주석
-             어러야러더
-            */
+            /*
+             * 여러줄 주석
+             */
             /*** XML 주석 ***/
 
 
-            // #1 12-2. 출력
+            // #1 12-2. 출력 
             Console.WriteLine("Hello World");
-            Console.WriteLine("줄바꿈 싫어");
+            Console.Write("줄바꿈 싫어");
 
             // #1 12-3. 기본 자료형
             // 정수 
@@ -111,7 +120,6 @@ namespace CSPractice1
             {
                 // other
             }
-
             int v = 0;
             // #2 13-5. switch 조건문
             switch (v)
@@ -125,7 +133,6 @@ namespace CSPractice1
             }
 
             // #2 13-6. 삼항 연산자
-
             Console.WriteLine(number % 2 != 1 ? true : false);
 
             // #3 14-1. 반복문과 배열
@@ -164,9 +171,9 @@ namespace CSPractice1
             Console.WriteLine(Math.Max(42, 1));  // 42
             Console.WriteLine(Math.PI); // 3.141592~~
 
+            // #4 21-3. 클래스 생성
 
 
         }
     }
 }
-                       
